@@ -40,6 +40,8 @@ public class DynamicArray {
         }
     System.out.println("----------Maximum N0. in array-------");
              
+           
+
         }
     }
 
