@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Tester_Employee {
     public static void main(String[] args) {
-        Tester_Employee emp = new Tester_Employee();
-
-        emp.calSalary();
-        emp.Display();
+        Employee emp = new Employee();
         emp.assignDetails(100 ,  "Gautam", "gautam@123" , 121186);
+        emp.calSalary();
+        emp.display();
+        
         emp.display();
         Scanner  sc = new Scanner(System.in);
         System.out.println("Enter id anme enmil salary");

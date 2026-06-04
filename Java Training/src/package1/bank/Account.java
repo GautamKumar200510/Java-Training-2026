@@ -9,7 +9,7 @@ public class Account {
     public Account() {
         System.out.println("---Account Default---");
         atcid = 10;
-        name = "Paras";
+        name = "Gautam";
         balance = 1000;
     }
 
@@ -33,8 +33,6 @@ public class Account {
     }
 
     // Display the account details
-    void withdraw(int i) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    
 
 }

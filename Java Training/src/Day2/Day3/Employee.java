@@ -22,8 +22,6 @@ public class Employee {
             System.out.println(email);
             System.out.println(salary);
         }
-
-    
        
     }
 
