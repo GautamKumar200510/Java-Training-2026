@@ -1,9 +1,14 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Account {
 
     private int atcid;
     private String name;
     private double balance;
+    List <String> list = new ArrayList();
 
     // Default Constructor
     public Account() {
