@@ -30,6 +30,7 @@ public class Test_DownCasting {
 
             switch (choice) {
                 case 1:
+                    
 
                     break;
 
@@ -39,20 +40,20 @@ public class Test_DownCasting {
 
         } while (choice != 0);
 
-        if (obj instanceof Ferrari) {
-            Ferrari f = (Ferrari) obj;
-            f.nos();
-            System.out.println("---DWN casted for ferrari");
+        // if (obj instanceof Ferrari) {
+        //     Ferrari f = (Ferrari) obj;
+        //     f.nos();
+        //     System.out.println("---DWN casted for ferrari");
 
-        } else if (obj instanceof BMW) {
-            BMW b = (BMW) obj; //downcasting
-            b.abs();
-            System.out.println("---DWN casted to BMW");
+        // } else if (obj instanceof BMW) {
+        //     BMW b = (BMW) obj; //downcasting
+        //     b.abs();
+        //     System.out.println("---DWN casted to BMW");
 
-        } else if (obj instanceof Nano) {
-            Nano n = (Nano) obj;
-            n.nanoDisplay();
-            System.out.println("----DWN casted into Nano-----");
-        }
+        // } else if (obj instanceof Nano) {
+        //     Nano n = (Nano) obj;
+        //     n.nanoDisplay();
+        //     System.out.println("----DWN casted into Nano-----");
+        // }
     }
 }
