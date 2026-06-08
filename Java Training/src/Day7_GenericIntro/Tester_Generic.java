@@ -3,8 +3,8 @@ public class Tester_Generic {
         MyClass<String> objStr = new MyClass<String>();
         objStr.swap("abc", "xyz");
 
-        Mydate d1 = new MyDate(1,1,2001);
-        Mydate d2 = new MyDate(2,2,2002);
+        MyDate d1 = new MyDate(1,1,2001);
+        MyDate d2 = new MyDate(2,2,2002);
 
         MyClass<MyDate> objDate = new MyClass <MyDate>();
         objDate.swap(d1, d2);
