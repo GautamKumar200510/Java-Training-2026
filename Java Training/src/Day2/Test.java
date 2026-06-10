@@ -23,7 +23,7 @@ public class Test {
          }
 
     System.out.println("----------Even---------");
-       if (no1%2==0 && no1>=50) {
+       if (no1%2==0 && no1>) {
         System.out.println("No1 is even number");
         System.out.println(no1);
            }
